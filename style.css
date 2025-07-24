@@ -250,18 +250,23 @@
     
 }
 
+
 @media screen and (max-width:576px){
     .home, .about{
         display: none;
     }
     .banner{
         flex-direction:column-reverse;
+        margin-top: 50px;
         
     }
-    
+    *{
+        overflow-x: hidden;
+    }
     .container{
         display: grid;
-       grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
     .card img{
         width: 100%;
@@ -277,8 +282,9 @@
     }
     .zabo{
         width: 361px;
-        height: 172px;
+        height: 200px;
         text-align: center;
+        
     }
     .join-us{
         width: 100%;
@@ -291,7 +297,9 @@
     }
     .plant-img img{
         width: 100%;
+        
     }
+    
     .email{
         width:218px;
     }
