@@ -32,9 +32,11 @@
 .list-item{
     list-style: none;
     margin-right: 48px;
+    box-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
 }
 .list-item a{
     text-decoration: none;
+   
     
 }
 .home{
@@ -99,4 +101,34 @@
     border: none;
     width: 100%;
  
+}
+.plants-lover{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 83px;
+}
+.plants-shop{
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 60px;
+    align-items: center;
+   
+}
+
+
+.plant-text ul li{
+    margin-bottom: 20px;
+}
+.plant-title{
+    font-size: 3.12rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.badge{
+    height: 286px;
+    width: 286px;
+    margin-bottom: -100px;
+  
+    margin-left: 347px;
+    
 }
