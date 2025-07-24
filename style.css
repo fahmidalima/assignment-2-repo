@@ -229,6 +229,23 @@
     color: white;
     border: none;
     margin-right: 305px;
-
-
+}
+.footer{
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer-links li{
+    list-style: none;
+}
+.footer-links li a{
+    color: #6B7280;
+    text-decoration: none;
+    text-align: justify;
+    
 }
