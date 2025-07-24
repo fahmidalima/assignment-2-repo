@@ -134,6 +134,7 @@
 .latest{
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 133px;
 }
 .latest-title{
     font-size: 3.12rem;
@@ -142,6 +143,7 @@
 }
 .latest-deal{
     align-items: center;
+    margin-top: 120px;
     gap: 28px;
 }
 
@@ -155,8 +157,13 @@
     background-repeat: no-repeat;
     height: 200px;
     width: 367px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 14px;
+    margin-bottom: 25px;
+    
    
 }
 .ana{
@@ -164,16 +171,22 @@
     height: 197px;
     width: 367px;
     background-repeat: no-repeat;
-    text-align: center;
     border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 .zabo{
     background-image: url(./images/deal-zabo.png) ;
     height: 423px;
     width: 753px;
     background-repeat: no-repeat;
-    text-align: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 14px;
     
 }
@@ -188,6 +201,10 @@
     max-width: 1440px;
     height: 533px;
     margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    
 }
 .join{
@@ -197,10 +214,14 @@
     color: white;
     text-align: center;
 }
-
+.input{
+    display: flex;
+    justify-content: center;
+}
 .email{
     width: 644px;
     height: 50px;
+    margin-left: 305px;
 }
 .submit{
     padding: 19px 53px;
